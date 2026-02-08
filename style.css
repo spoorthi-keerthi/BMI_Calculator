@@ -1,0 +1,63 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url("bmi.jpg") no-repeat center center fixed;
+  background-size: cover;   /* This makes it fill the screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;                /* Remove extra space around page */
+}
+
+
+.container {
+  background: rgb(245, 246, 245);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #0f0f0f;
+  font-family:monospace;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+  font-family:monospace;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  background: #2980b9;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #21618c;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: 600;
+}
